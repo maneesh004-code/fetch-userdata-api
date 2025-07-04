@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Fetch - API Integration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>User Directory</h1>
+            <p>Fetching user data from JSONPlaceholder API</p>
+        </div>
+        
+        <div class="controls">
+            <button id="reloadBtn" class="reload-btn" onclick="fetchUsers()">
+                🔄 Reload Data
+            </button>
+        </div>
+        
+        <div id="userContainer">
+            <!-- User data will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
